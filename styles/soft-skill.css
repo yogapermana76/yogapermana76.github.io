@@ -1,0 +1,53 @@
+.soft-skill {
+  padding: 50px 0;
+}
+
+.soft-skill .headline {
+  margin-bottom: 50px;
+}
+
+.soft-skill .img-hero {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.soft-skill .right-column {
+  width: 100%;
+}
+
+.soft-skill .title-caption {
+  font: 500 1.5rem/2rem Poppins, sans-serif;
+  margin-bottom: 1.25rem;
+  color: #121212;
+}
+
+.soft-skill .circle {
+  font: 500 1.25rem/1.75rem Poppins, sans-serif;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 1.25rem;
+  border-radius: 9999px;
+  background-color: #ffbf56;
+}
+
+@media (min-width: 768px) {
+  .soft-skill .title-text {
+    font: 600 2.25rem/2.5rem Poppins, sans-serif;
+  }
+}
+
+@media (min-width: 992px) {
+  .soft-skill .img-hero {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .soft-skill .right-column {
+    width: 50%;
+  }
+
+  .soft-skill .circle {
+    margin-right: 1.25rem;
+    margin-bottom: 0;
+  }
+}

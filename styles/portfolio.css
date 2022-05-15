@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) {
+  .porto {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+}
+
+.porto .porto-img {
+  margin-top: 45px;
+}
+
+.porto .porto-img div {
+  z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .porto .porto-img {
+    margin-top: 96px;
+  }
+}

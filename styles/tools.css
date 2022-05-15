@@ -1,0 +1,14 @@
+.skills {
+  background: radial-gradient(
+    100% 100% at 50% 0%,
+    #f9fafe 0%,
+    #fafafd 100%
+  );
+  padding: 90px 0;
+}
+.skills .headline {
+  margin-bottom: 50px;
+}
+.skills .tools img {
+  width: 100px !important;
+}

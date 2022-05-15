@@ -1,0 +1,22 @@
+.education {
+  padding: 50px 0;
+}
+.education .headline {
+  margin-bottom: 50px;
+}
+.education .card {
+  background: #ffffff;
+  -webkit-box-shadow: -32px 48px 60px rgba(22, 23, 28, 0.04);
+  box-shadow: -32px 48px 60px rgba(22, 23, 28, 0.04);
+  border-radius: 12px;
+  padding: 24px;
+  border: none;
+}
+.education .card .title {
+  font-weight: 600;
+}
+.education .card p {
+  font: 300 1rem/1.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #303030;
+}

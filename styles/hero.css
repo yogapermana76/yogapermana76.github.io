@@ -1,0 +1,247 @@
+.hero-section .responsive li {
+  padding: 1rem;
+}
+
+.hero-section .hr {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-section .hero {
+  padding: 4rem 2rem;
+}
+
+.hero-section .left-column {
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+.hero-section .title-text-big {
+  font: 600 2.25rem / normal Poppins, sans-serif;
+  color: #243142;
+}
+
+.hero-section .text-caption {
+  font: 300 1rem/1.5rem Poppins, sans-serif;
+  letter-spacing: 0.025em;
+  color: #303030;
+  margin-bottom: 5rem;
+}
+
+.hero-section .btn-get {
+  font: 600 1rem/1.5rem Poppins, sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  border: 1px solid #ff7468;
+  background-color: #ff7468;
+  transition: 0.3s;
+}
+
+.hero-section .btn-get:hover {
+  background-color: #ff8378;
+  border: 1px solid #ff8378;
+}
+
+.hero-section .btn-outline {
+  font: 400 1rem/1.5rem Poppins, sans-serif;
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  background-color: transparent;
+  border: 1px solid #5d6e86;
+  color: #5d6e86;
+  transition: 0.3s;
+}
+
+.hero-section .btn-outline:hover {
+  border: 1px solid #ff7468;
+  color: #ff7468;
+}
+
+.hero-section .btn-outline:hover div path {
+  fill: #ff7468;
+}
+
+.hero-section .btn-outline:hover div rect {
+  stroke: #ff7468;
+}
+
+.hero-section .right-column {
+  width: 100%;
+}
+
+.hero-section .hero-right {
+  right: 2rem;
+  bottom: 0;
+}
+
+.hero-section .card-outer {
+  padding-left: 0;
+  z-index: 1;
+}
+
+.hero-section .card {
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  margin-top: 2.5rem;
+  box-shadow: -4px 4px 10px 0px rgba(224, 224, 224, 0.25);
+}
+
+.hero-section .card:hover {
+  top: -3px;
+  left: -3px;
+  transition: 0.4s;
+  box-shadow: -4px 8px 15px 0px rgba(167, 167, 167, 0.25);
+}
+
+.hero-section .card-name {
+  font: 600 1rem/1.5rem Poppins, sans-serif;
+  margin-bottom: 0.25rem;
+}
+
+.hero-section .card-job {
+  font: 300 0.75rem/1rem Poppins, sans-serif;
+  color: #aaa6a6;
+  margin-bottom: 0;
+}
+
+.hero-section .card-price-left {
+  font: 500 1rem/1.5rem Poppins, sans-serif;
+  margin-bottom: 0.125rem;
+  color: #ff7468;
+}
+
+.hero-section .card-caption {
+  font: 300 0.75rem/1rem Poppins, sans-serif;
+  color: #aaa6a6;
+  margin-bottom: 0;
+}
+
+.hero-section .card-price-right {
+  font: 500 1rem/1.5rem Poppins, sans-serif;
+  margin-bottom: 0.125rem;
+  color: #1b8171;
+}
+
+.hero-section .btn-hire {
+  font: 600 1rem/1.5rem Poppins, sans-serif;
+  padding: 0.75rem 4rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.125rem;
+  border: 1px solid #ff7468;
+  background-color: #ff7468;
+  transition: 0.3s;
+}
+
+.hero-section .btn-hire:hover {
+  background-color: #ff8378;
+  border: 1px solid #ff8378;
+}
+
+.hero-section .form {
+  border-radius: 999px;
+  background-color: #fff3f2;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 0rem 1rem;
+  padding-right: 0.5rem;
+  outline: none;
+}
+
+.hero-section .form div input[type='text'] {
+  background-color: #fff3f2;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 0rem 0.5rem;
+  outline: none;
+  width: 100%;
+}
+
+.hero-section .center-search {
+  bottom: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .hero-section .title-text-big {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-section .hr {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .hero-section .hero {
+    padding: 4rem;
+  }
+
+  .hero-section .left-column {
+    margin-bottom: 3rem;
+  }
+
+  .hero-section .hero-right {
+    right: 4rem;
+  }
+
+  .hero-section .card {
+    margin-left: auto;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-section .hr {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .hero-section .hero {
+    padding: 4rem 6rem 5rem;
+  }
+
+  .hero-section .left-column {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .hero-section .title-text-big {
+    font-size: 3.75rem;
+    line-height: 1.25;
+  }
+
+  .hero-section .right-column {
+    width: 50%;
+  }
+
+  .hero-section .hero-right {
+    right: 6rem;
+  }
+
+  .hero-section .card-outer {
+    padding-left: 4rem;
+  }
+
+  .hero-section .center-search {
+    left: 48%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-48%, -50%);
+  }
+
+  .hero-section .form {
+    width: 340px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hero-section .form div input[type='text'] {
+    width: 100%;
+  }
+}
